@@ -15,6 +15,13 @@ hr {
     margin: 3rem 0em;
 }
 
+.blog-intro{
+    text-overflow: ellipsis;
+  
+    white-space: nowrap;
+    overflow: hidden !important;
+}
+
 /* spaces */
 .margin-md{
     margin:2rem;
@@ -125,7 +132,9 @@ container {
 li{
     margin-bottom:10vh;
 }
-
+main{
+    margin-bottom:10vh;
+}
 .reversed-list{
     transform: rotate(180deg);
 }
