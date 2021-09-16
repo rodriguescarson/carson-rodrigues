@@ -1,20 +1,3 @@
-/* body{color:red}
-
-h1{
-    color:blue;
-}
-h2{
-    color:green;
-}
-
-#lib-header{
-    color:brown;
-}
-
-.para{
- color:pink;   
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
@@ -30,6 +13,13 @@ margin:0px;
 
 hr {
     margin: 3rem 0em;
+}
+
+.blog-intro{
+    text-overflow: ellipsis;
+  
+    white-space: nowrap;
+    overflow: hidden !important;
 }
 
 /* spaces */
@@ -139,24 +129,37 @@ container {
 
 .ow{background-color: var(--off-white);}
 
-/* footer */
+li{
+    margin-bottom:10vh;
+}
+main{
+    margin-bottom:10vh;
+}
+.reversed-list{
+    transform: rotate(180deg);
+}
 
-footer{
-    background-color:var(--primary-color);
-    padding:2rem 1rem;
+.reversed-list > li {
+    transform: rotate(-180deg);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
     text-align: center;
-    color:white;
+    color: white;
     border-top-right-radius: 1rem;
-}
-
-.footer .link{
-    color:white;
-}
-
-.footer .footer-header{
+  }
+  
+  .footer .link {
+    color: white;
+  }
+  
+  .footer .footer-header {
     font-weight: bold;
     font-size: large;
-}
-.footer ul{
-    padding-inline-start:0px;
-}
+  }
+  
+  .footer ul {
+    padding-inline-start: 0px;
+  }
